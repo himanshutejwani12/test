@@ -1,0 +1,12 @@
+Sign Up and Connect an External Account
+If you are going to import a repository from GitHub, Bitbucket or GitLab, you should connect your account to your provider first. Connecting your account allows for easier importing and enables Read the Docs to configure your repository webhooks automatically.
+
+To connect your account, go to your Settings dashboard and select Connected Services. From here, you’ll be able to connect to your GitHub, Bitbucket or GitLab account. This process will ask you to authorize a connection to Read the Docs, that allows us to read information about and clone your repositories.
+
+Import Your Docs
+To import a repository, visit your dashboard and click Import.
+
+If you have a connected account, you will see a list of your repositories that we are able to import. To import one of these projects, just click the import icon next to the repository you’d like to import. This will bring up a form that is already filled with your project’s information. Feel free to edit any of these properties, and the click Next to build your documentation.
+
+Manually Import Your Docs
+If you do not have a connected account, you will need select Import Manually and enter the information for your repository yourself. You will also need to manually configure the webhook for your repository as well. When importing your project, you will be asked for the repository URL, along with some other information for you new project. The URL is normally the URL or path name you’d use to checkout, clone, or branch your repository. Some examples:
