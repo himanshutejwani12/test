@@ -77,7 +77,7 @@ License
 .. _MIT: LICENSE
 
 file1
------
+=====
 
 .. toctree::
    :maxdepth: 2
@@ -86,7 +86,7 @@ file1
    file1
    
 file2
------
+=====
    
 .. toctree::
    :maxdepth: 2
