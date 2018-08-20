@@ -80,3 +80,4 @@ License
    :maxdepth: 2
 
    file1
+   file2
