@@ -75,3 +75,8 @@ License
 `MIT`_ © 2010-2017 Read the Docs, Inc & contributors
 
 .. _MIT: LICENSE
+
+.. toctree::
+   :maxdepth: 2
+
+   file1
