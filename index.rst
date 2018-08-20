@@ -76,14 +76,20 @@ License
 
 .. _MIT: LICENSE
 
+file1
+-----
+
 .. toctree::
    :maxdepth: 2
    :caption: file1
    
    file1
    
+file2
+-----
+   
 .. toctree::
    :maxdepth: 2
-   :caption: file1
+   :caption: file2
    
    file2
