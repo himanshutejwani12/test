@@ -1,135 +1,80 @@
-Welcome to Read The Docs
+Welcome to Read the Docs
 ========================
 
-`Read the Docs`_ hosts documentation for the open source community.
-We support Sphinx_ docs written with reStructuredText_ and `CommonMark`_.
-We pull your code from your Subversion_, Bazaar_, Git_, and Mercurial_ repositories.
+|build-status| |docs|
+
+Purpose
+-------
+
+`Read the Docs`_ hosts documentation for the open source community. It supports
+Sphinx_ docs written with reStructuredText_, and can pull from your Subversion_,
+Bazaar_, Git_, and Mercurial_ repositories.
 Then we build documentation and host it for you.
 Think of it as *Continuous Documentation*.
-
-The code is open source, and `available on GitHub`_.
 
 .. _Read the docs: http://readthedocs.org/
 .. _Sphinx: http://sphinx.pocoo.org/
 .. _reStructuredText: http://sphinx.pocoo.org/rest.html
-.. _CommonMark: http://commonmark.org/
 .. _Subversion: http://subversion.tigris.org/
 .. _Bazaar: http://bazaar.canonical.com/
 .. _Git: http://git-scm.com/
 .. _Mercurial: https://www.mercurial-scm.org/
-.. _available on GitHub: http://github.com/rtfd/readthedocs.org
 
-The main documentation for the site is organized into a couple sections:
+Documentation for RTD
+---------------------
 
-* :ref:`user-docs`
-* :ref:`feature-docs`
-* :ref:`about-docs`
+You will find complete documentation for setting up your project at `the Read
+the Docs site`_.
 
-Information about development is also available:
+.. _the Read the Docs site: https://docs.readthedocs.io/
 
-* :ref:`dev-docs`
-* :ref:`design-docs`
+Contributing
+------------
 
-.. _user-docs:
+You can find information about contributing to Read the Docs at our `Contribution page <http://docs.readthedocs.io/en/latest/contribute.html>`_.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: User Documentation
+Quickstart for GitHub-Hosted Projects
+-------------------------------------
 
-   getting_started
-   versions
-   builds
-   features
-   support
-   faq
-   yaml-config
-   guides/index
-   api/index
-   embed
+By the end of this quickstart, you will have a new project automatically updated
+when you push to GitHub.
 
-.. _about-docs:
+#. Create an account on `Read the Docs`_.  You will get an email verifying your
+   email address which you should accept within 7 days.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: About Read the Docs
+#. Log in and click on "Import".
 
-   contribute
-   team
-   gsoc
-   code-of-conduct
-   privacy-policy
-   advertising/index
-   sponsors
-   open-source-philosophy
-   story
-   abandoned-projects
-   dmca/index
+#. Give your project a name, add the HTTPS link for your GitHub project, and
+   select Git as your repository type.
 
-.. _feature-docs:
+#. Fill in the rest of the form as needed and click "Create".
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
-   :caption: Feature Documentation
+#. On GitHub, navigate to your repository and click on "Settings".
 
-   webhooks
-   badges
-   alternate_domains
-   localization
-   vcs
-   subprojects
-   conda
-   canonical
-   single_version
-   privacy
-   user-defined-redirects
-   automatic-redirects
-   features/*
+#. In the sidebar, click on "Web Hooks & Services", then find and click on the
+   "ReadTheDocs" service.
+
+#. Check the "Active" setting and click "Update Settings".
+
+#. All done.  Commit away and your project will auto-update.
 
 
-.. _dev-docs:
+.. |build-status| image:: https://img.shields.io/travis/rtfd/readthedocs.org.svg?style=flat
+    :alt: build status
+    :scale: 100%
+    :target: https://travis-ci.org/rtfd/readthedocs.org
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Developer Documentation
+.. |docs| image:: https://readthedocs.org/projects/docs/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://docs.readthedocs.io/en/latest/?badge=latest
 
-   changelog
-   install
-   architecture
-   tests
-   docs
-   development/standards
-   development/buildenvironments
-   symlinks
-   settings
-   i18n
-   issue-labels
-   security
+License
+-------
 
-.. _business-docs:
+`MIT`_ © 2010-2017 Read the Docs, Inc & contributors
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Business Documentation
-
-   business/index
-
-.. _custom-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Custom Install Documentation
-
-   custom_installs/index
-
-.. _design-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Designer Documentation
-
-   design
-   Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>
+.. _MIT: LICENSE
 
 
 file
