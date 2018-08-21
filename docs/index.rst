@@ -87,7 +87,6 @@ sdhgsghsgksdj
 file1
 -------
 
-.. _file1:
 
 .. toctree::
    :maxdepth: 2
