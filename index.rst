@@ -29,3 +29,11 @@ Information about development is also available:
 
 * :ref:`dev-docs`
 * :ref:`design-docs`
+
+.. _user-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Documentation
+
+   file2
