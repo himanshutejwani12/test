@@ -1,27 +1,135 @@
-Introduction to Sphinx
-======================
-Sphinx is the documentation tool of choice for the Python language community, and increasingly also for other programming languages and tools. It was originally created in 2008 to document the Python language itself.
+Welcome to Read The Docs
+========================
 
-Over the past eight years, it has turned into a robust and mature solution for software documentation. It includes a number of features that writers expect, such as:
+`Read the Docs`_ hosts documentation for the open source community.
+We support Sphinx_ docs written with reStructuredText_ and `CommonMark`_.
+We pull your code from your Subversion_, Bazaar_, Git_, and Mercurial_ repositories.
+Then we build documentation and host it for you.
+Think of it as *Continuous Documentation*.
 
-Single Source Publishing
-------------------------
-* :ref:`Output HTML, PDF, ePub, and more`
-* :ref:`Content reuse through includes`
-* :ref:`Conditional includes based on content type and tags`
-* :ref:`Multiple mature HTML themes that provide great user experience on mobile and desktop`
-* :ref:`Referencing across pages, documents, and projects`
-* :ref:`Index and Glossary support`
-* :ref:`Internationalization support`
+The code is open source, and `available on GitHub`_.
 
-It also has practical and powerful tools for documenting software specifically, including:
---------------------------------------------------------------------------------------------
+.. _Read the docs: http://readthedocs.org/
+.. _Sphinx: http://sphinx.pocoo.org/
+.. _reStructuredText: http://sphinx.pocoo.org/rest.html
+.. _CommonMark: http://commonmark.org/
+.. _Subversion: http://subversion.tigris.org/
+.. _Bazaar: http://bazaar.canonical.com/
+.. _Git: http://git-scm.com/
+.. _Mercurial: https://www.mercurial-scm.org/
+.. _available on GitHub: http://github.com/rtfd/readthedocs.org
 
-Semantic referencing of software concepts, including classes, functions, programs, variables, etc.
-Including code comments in documentation output for many programming languages
-Tools for documenting HTTP APIs
-Extensions with the Python language
-A vast array of third party extensions providing powerful new roles and directives
+The main documentation for the site is organized into a couple sections:
+
+* :ref:`user-docs`
+* :ref:`feature-docs`
+* :ref:`about-docs`
+
+Information about development is also available:
+
+* :ref:`dev-docs`
+* :ref:`design-docs`
+
+.. _user-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Documentation
+
+   getting_started
+   versions
+   builds
+   features
+   support
+   faq
+   yaml-config
+   guides/index
+   api/index
+   embed
+
+.. _about-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: About Read the Docs
+
+   contribute
+   team
+   gsoc
+   code-of-conduct
+   privacy-policy
+   advertising/index
+   sponsors
+   open-source-philosophy
+   story
+   abandoned-projects
+   dmca/index
+
+.. _feature-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Feature Documentation
+
+   webhooks
+   badges
+   alternate_domains
+   localization
+   vcs
+   subprojects
+   conda
+   canonical
+   single_version
+   privacy
+   user-defined-redirects
+   automatic-redirects
+   features/*
+
+
+.. _dev-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developer Documentation
+
+   changelog
+   install
+   architecture
+   tests
+   docs
+   development/standards
+   development/buildenvironments
+   symlinks
+   settings
+   i18n
+   issue-labels
+   security
+
+.. _business-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Business Documentation
+
+   business/index
+
+.. _custom-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Custom Install Documentation
+
+   custom_installs/index
+
+.. _design-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Designer Documentation
+
+   design
+   Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>
 
 files
 -----
