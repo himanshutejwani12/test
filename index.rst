@@ -80,6 +80,8 @@ License
 file
 =====
 
+.. _dev-docs:
+
 .. toctree::
    :maxdepth: 2
    :caption: file
