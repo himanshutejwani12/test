@@ -36,5 +36,5 @@ Information about development is also available:
    :maxdepth: 2
    :caption: User Documentation
 
-   file2
+   file1
    
