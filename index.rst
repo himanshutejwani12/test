@@ -1,34 +1,27 @@
-Welcome to Read The Docs
-========================
+Introduction to Sphinx
+======================
+Sphinx is the documentation tool of choice for the Python language community, and increasingly also for other programming languages and tools. It was originally created in 2008 to document the Python language itself.
 
-`Read the Docs`_ hosts documentation for the open source community.
-We support Sphinx_ docs written with reStructuredText_ and `CommonMark`_.
-We pull your code from your Subversion_, Bazaar_, Git_, and Mercurial_ repositories.
-Then we build documentation and host it for you.
-Think of it as *Continuous Documentation*.
+Over the past eight years, it has turned into a robust and mature solution for software documentation. It includes a number of features that writers expect, such as:
 
-The code is open source, and `available on GitHub`_.
+Single Source Publishing
+------------------------
+* :ref:`Output HTML, PDF, ePub, and more`
+* :ref:`Content reuse through includes`
+* :ref:`Conditional includes based on content type and tags`
+* :ref:`Multiple mature HTML themes that provide great user experience on mobile and desktop`
+* :ref:`Referencing across pages, documents, and projects`
+* :ref:`Index and Glossary support`
+* :ref:`Internationalization support`
 
-.. _Read the docs: http://readthedocs.org/
-.. _Sphinx: http://sphinx.pocoo.org/
-.. _reStructuredText: http://sphinx.pocoo.org/rest.html
-.. _CommonMark: http://commonmark.org/
-.. _Subversion: http://subversion.tigris.org/
-.. _Bazaar: http://bazaar.canonical.com/
-.. _Git: http://git-scm.com/
-.. _Mercurial: https://www.mercurial-scm.org/
-.. _available on GitHub: http://github.com/rtfd/readthedocs.org
+It also has practical and powerful tools for documenting software specifically, including:
+--------------------------------------------------------------------------------------------
 
-The main documentation for the site is organized into a couple sections:
-
-* :ref:`user-docs`
-* :ref:`feature-docs`
-* :ref:`about-docs`
-
-Information about development is also available:
-
-* :ref:`dev-docs`
-* :ref:`design-docs`
+Semantic referencing of software concepts, including classes, functions, programs, variables, etc.
+Including code comments in documentation output for many programming languages
+Tools for documenting HTTP APIs
+Extensions with the Python language
+A vast array of third party extensions providing powerful new roles and directives
 
 files
 -----
