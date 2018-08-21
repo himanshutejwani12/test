@@ -100,6 +100,7 @@ file2
 -------
 
 this is file2
+
 .. toctree::
    :maxdepth: 2
    :caption: file2
