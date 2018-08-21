@@ -28,6 +28,6 @@ files
 
 .. toctree::
    :maxdepth: 2
-   :caption: file
+   :caption: file2
 
    file2
