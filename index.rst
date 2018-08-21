@@ -35,4 +35,4 @@ Information about development is also available:
    :maxdepth: 2
    :caption: file
 
-   file1
+   file2
