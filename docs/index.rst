@@ -87,9 +87,22 @@ sdhgsghsgksdj
 file1
 -------
 
-
+this is file1
 .. toctree::
    :maxdepth: 2
-   :caption: file1
+   :caption: files
 
    file1
+   
+   
+   file2
+---------
+
+this is file2
+.. toctree::
+   :maxdepth: 2
+   :caption: file2
+
+
+   file2
+
