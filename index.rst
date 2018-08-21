@@ -30,6 +30,7 @@ Information about development is also available:
 * :ref:`dev-docs`
 * :ref:`design-docs`
 
+.. _file2:
 
 .. toctree::
    :maxdepth: 2
